@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="logos">
+            <h1><img src="imagenes/logo de Alura.png" alt="Logo Alura" class="logoAlura"></h1>
+            <img src="imagenes/logo encriptador.png" alt="encriptador" class="logoEncriptador">
+            <a href="https://github.com/0AleDU0"><img src="./imagenes/git hub.jpeg" alt="Git hub" class="github"></a>
+        </header>
+
+        <main>
+            <section class="inputPadron">
+                <textarea id="texto" class="inputTexto" placeholder="Ingrese el texto aqui..."></textarea>
+                <div class="textoAviso">
+                    <p style="background: url('https://api.iconify.design/bi/exclamation-circle-fill.svg?color=%23aaa') no-repeat center center / contain;" class="exclamacion"></p>
+                    <p style="display: inline-block;">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div id="buttons">
+                    <input type="button" value="  Encriptar    " class="Encriptador">
+                    <input type="button" value="Desencriptar" class="Desencriptador">
+                </div>
+            </section>
+            <section class="outputPadron">
+                <p class="outputTexto"></p>
+                <img src="imagenes/Muñeco.png" alt="munheco" class="munheco">
+                <div class="ParrafoContenido">
+                    <h2>Ningún mensaje fue <br>encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o <br>desencriptar.</p>
+                </div>
+                <input type="button" value="Copiar" class="Copiar">
+            </section>
+            <script src="script.js"></script>
+        </main>
+    </body>
+</html>
